@@ -8,6 +8,16 @@ Enjoy using the knobs on it like it is 1970.
 ## Requirements: Csound
 Install csound. (instructions on csound.com)
 
+## Run
+Plug in your USB midi from your keyboard to your computer.
+
+In terminal window, go into the directory that contains 'synth.csd' and type this simple command:
+```
+csound synth.csd
+```
+
+Now have fun playing with it.
+
 ## Synth keyboard layout
 - Pitch Wheel: bends the pitch up or down
 - Modulation Wheel: vibrato depth
