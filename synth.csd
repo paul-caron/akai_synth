@@ -4,7 +4,7 @@
 
 ; realtime output
 -o dac -M0 ;
-; -o output.wav -W -3 ;uncomment for writing to test.wav file
+; -o output.wav -W -3 ;uncomment for writing to output.wav file
 
 </CsOptions>
 
