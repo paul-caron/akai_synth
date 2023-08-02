@@ -31,11 +31,11 @@ Now have fun playing with it.
 
 ## Technicalities / Internal patching
 
-This synth runs 3 oscillators internally, all set to the pressed note frequency, one octave down and two octaves down. The output of these oscillators can be pitch bent, or obtain vibrato.
+This synth runs 3 oscillators internally, all set to the pressed note frequency, one octave down and two octaves down. The output of these oscillators can be pitch bent, and/or obtain vibrato.
 
 The oscillators output are fed to a mixer.
 
-The mixer output is filtered through a resonant low pass filter.
+The mixer output is filtered through a resonant low pass filter. An ADSR envelope is also applied.
 
 Then it goes out through the speaker.
 Then your ears.
