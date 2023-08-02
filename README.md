@@ -9,14 +9,14 @@ Enjoy using the knobs on it like it is 1970.
 Install csound. (instructions on csound.com)
 
 ## Synth keyboard layout
--Pitch Wheel: bends the pitch up or down
--Modulation Wheel: vibrato depth
--drum pads: not used yet in this synth
--Knob 70: Cutoff frequency
--Knob 71: Resonance
--Knob 72: Vibrato rate
--Knob 73: not used yet in this synth
--Knob 74: Attack
--Knob 75: Decay
--Knob 76: Sustain
--Knob 77: Release
+- Pitch Wheel: bends the pitch up or down
+- Modulation Wheel: vibrato depth
+- drum pads: not used yet in this synth
+- Knob 70: Cutoff frequency
+- Knob 71: Resonance
+- Knob 72: Vibrato rate
+- Knob 73: not used yet in this synth
+- Knob 74: Attack
+- Knob 75: Decay
+- Knob 76: Sustain
+- Knob 77: Release
