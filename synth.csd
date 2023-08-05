@@ -4,7 +4,7 @@
 
 ; realtime output
 -o dac -M0 ;
-; -o output.wav -W -3 ;uncomment for writing to output.wav file
+; -o output.wav -W -3 ;uncomment for writing to test.wav file
 
 </CsOptions>
 
@@ -30,6 +30,16 @@ gisawtooth	ftgen 0, 0, 65536, 10, -1/(1*3.14), -1/(2*3.14), -1/(3*3.14), -1/(4*3
 ; (8/((pi*pi)*(n*n)))*((-1)^((n-1)/2)) for odd harmonics. 0 for even harmonics.
 gitriangle ftgen 0, 0, 65536, 10, (8/((3.14*3.14)*(1)))*((-1)^((1-1)/2)), 0, (8/((3.14*3.14)*(3*3)))*((-1)^((3-1)/2)),0, (8/((3.14*3.14)*(5*5)))*((-1)^((5-1)/2)), 0, (8/((3.14*3.14)*(7*7)))*((-1)^((7-1)/2))
 
+initc7 1, 1, 0
+initc7 1, 70, 0.3
+initc7 1, 71, 0.7
+initc7 1, 72, 1
+initc7 1, 73, 0.2
+initc7 1, 74, 0.1
+initc7 1, 75, 0.8
+initc7 1, 76, 0.5
+initc7 1, 77, 0.2
+
 instr 1
  kvibf midic7 72, 0, 10
  kvibamp midic7 1, 0, 10
@@ -50,17 +60,18 @@ instr 1
  iwave3 = gisquare
  asig3 oscil iamp3, kcps3+kvib, iwave3
 
- iatt midic7 74, 0, 1
- idec midic7 75, 0, 1
+ iatt midic7 74, 0.01, 1
+ idec midic7 75, 0.01, 1
  islev midic7 76, 0, 1
- irel midic7 77, 0, 1
+ irel midic7 77, 0.01, 1
  kenv madsr iatt, idec, islev, irel
 
  aMixer = (asig1+asig2)
 
  kcutoff midic7 70, 0, 1000
- kres midic7 71, 0, 1
- aOut moogladder2 aMixer, kcutoff, kres
+ kres midic7 71, 0, 1.2
+ kcontour midic7 73, 0, 800
+ aOut moogladder2 aMixer, kcutoff + kenv*kcontour, kres
 
  out aOut*kenv
 endin
