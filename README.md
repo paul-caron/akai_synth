@@ -17,6 +17,7 @@ csound synth.csd
 Now have fun playing with it.
 
 ## Synth keyboard layout
+Here I used the same factory settings of the Akai Mini plus with cc messages spaning from 70 to 77:
 - Pitch Wheel: bends the pitch up or down
 - Modulation Wheel: vibrato depth
 - drum pads: not used yet in this synth
