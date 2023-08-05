@@ -35,7 +35,9 @@ This synth runs 3 oscillators internally, all set to the pressed note frequency,
 
 The oscillators output are fed to a mixer.
 
-The mixer output is filtered through a resonant low pass filter. An ADSR envelope is also applied.
+The mixer output is filtered through a resonant low pass filter. An ADSR envelope is also applied to the cutoff frequency (adjusted with contour 73).
+
+After the filter, the signal output goes through an amplitude envelope (with same settings as the filter contour ADSR).
 
 Then it goes out through the speaker.
 Then your ears.
