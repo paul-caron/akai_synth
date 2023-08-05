@@ -24,7 +24,7 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 - Knob 70: Filter cutoff frequency
 - Knob 71: Filter resonance
 - Knob 72: Vibrato rate
-- Knob 73: Filter Contour (ADSR envelope gain on the cutoff frequency)
+- Knob 73: Filter Contour (ADSR envelope boost to the cutoff frequency)
 - Knob 74: Attack
 - Knob 75: Decay
 - Knob 76: Sustain
