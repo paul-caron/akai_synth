@@ -20,10 +20,10 @@ Now have fun playing with it.
 - Pitch Wheel: bends the pitch up or down
 - Modulation Wheel: vibrato depth
 - drum pads: not used yet in this synth
-- Knob 70: Cutoff frequency
-- Knob 71: Resonance
+- Knob 70: Filter cutoff frequency
+- Knob 71: Filter resonance
 - Knob 72: Vibrato rate
-- Knob 73: not used yet in this synth
+- Knob 73: Filter Contour (ADSR envelope gain on the cutoff frequency)
 - Knob 74: Attack
 - Knob 75: Decay
 - Knob 76: Sustain
