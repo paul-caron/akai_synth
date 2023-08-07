@@ -69,3 +69,7 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 - Knob 76: Carrier attack
 - Knob 77: Carrier decay
 
+### Technicalities about fm.csd
+This is a basic 2 operators fm synth. Both operators have controllable amplitude, frequency ratio, attack and decay controls.
+
+The depth of the modulation can be adjusted with the modulation wheel, up to 4 octaves shift.
