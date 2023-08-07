@@ -74,7 +74,7 @@ This is a basic 2 operators fm synth. Both operators have controllable amplitude
 
 The depth of the modulation can be adjusted with the modulation wheel, up to 4 octaves shift.
 
-## Fm.csd
+## Pwm.csd
 
 ### Run
 Plug in your USB midi from your keyboard to your computer.
