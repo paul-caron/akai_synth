@@ -6,7 +6,8 @@ Enjoy using the knobs on it like it is 1970.
 ## Requirements: Csound
 Install csound. (instructions on csound.com)
 
-## Run
+## Synth.csd
+### Run
 Plug in your USB midi from your keyboard to your computer.
 
 In terminal window, go into the directory that contains 'synth.csd' and type this simple command:
@@ -16,7 +17,7 @@ csound synth.csd
 
 Now have fun playing with it.
 
-## Synth keyboard layout
+### Synth keyboard layout
 Here I used the same factory settings of the Akai Mini plus with cc messages spaning from 70 to 77:
 - Pitch Wheel: bends the pitch up or down
 - Modulation Wheel: vibrato depth
@@ -30,7 +31,7 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 - Knob 76: Sustain
 - Knob 77: Release
 
-## Technicalities / Internal patching
+### Technicalities / Internal patching
 
 This synth runs 3 oscillators internally, all set to the pressed note frequency, one octave down and two octaves down. The output of these oscillators can be pitch bent, and/or obtain vibrato.
 
