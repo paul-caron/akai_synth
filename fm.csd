@@ -4,7 +4,6 @@
 
 ; realtime output
 -o dac -M0 ;
-; -o output.wav -W -3 ;uncomment for writing to test.wav file
 
 </CsOptions>
 
@@ -53,8 +52,6 @@ instr 1
  kmodamp midic7 70, 0, 1
  kmodratio midic7 71, 0, 127
  amod poscil kmodamp * amodenv, kcps * kmodratio, gisine
-
-; display amod, 0.2, 1
 
 
  icaratt midic7 76, 0, 1
