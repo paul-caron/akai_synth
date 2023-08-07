@@ -73,3 +73,30 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 This is a basic 2 operators fm synth. Both operators have controllable amplitude, frequency ratio, attack and decay controls.
 
 The depth of the modulation can be adjusted with the modulation wheel, up to 4 octaves shift.
+
+## Fm.csd
+
+### Run
+Plug in your USB midi from your keyboard to your computer.
+
+In terminal window, go into the directory that contains 'pwm.csd' and type this simple command:
+```
+csound pwm.csd
+```
+
+### Synth keyboard layout
+Here I used the same factory settings of the Akai Mini plus with cc messages spaning from 70 to 77:
+- Pitch Wheel: Bends the pitch up or down
+- Modulation Wheel: Pulse width modulation
+- drum pads: not used yet in this synth
+- Knob 70: not used
+- Knob 71: not used
+- Knob 72: not used
+- Knob 73: not used
+- Knob 74: attack
+- Knob 75: decay
+- Knob 76: sustain
+- Knob 77: release
+
+### Technicalities about pwm.csd
+-
