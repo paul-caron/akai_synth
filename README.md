@@ -55,6 +55,17 @@ In terminal window, go into the directory that contains 'fm.csd' and type this s
 csound fm.csd
 ```
 
-
-
+### Synth keyboard layout
+Here I used the same factory settings of the Akai Mini plus with cc messages spaning from 70 to 77:
+- Pitch Wheel: Bends the pitch up or down
+- Modulation Wheel: Frequency modulation depth
+- drum pads: not used yet in this synth
+- Knob 70: Modulator amplitude
+- Knob 71: Modulator ratio to the pressed note frequency
+- Knob 72: Modulator attack
+- Knob 73: Modulator decay
+- Knob 74: Carrier amplitude
+- Knob 75: Carrier ratio to the pressed note frequency
+- Knob 76: Carrier attack
+- Knob 77: Carrier decay
 
