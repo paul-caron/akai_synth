@@ -45,7 +45,15 @@ Then it goes out through the speaker.
 Then your ears.
 Your brain.
 
+## Fm.csd
 
+### Run
+Plug in your USB midi from your keyboard to your computer.
+
+In terminal window, go into the directory that contains 'fm.csd' and type this simple command:
+```
+csound fm.csd
+```
 
 
 
