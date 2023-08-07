@@ -99,4 +99,4 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 - Knob 77: release
 
 ### Technicalities about pwm.csd
--
+This one synth works like an "atari punk console", where a square wave oscillator has its pulse width modulated. The output of the oscillator is then shaped with and ADSR envelope.
