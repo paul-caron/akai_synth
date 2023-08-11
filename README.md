@@ -105,7 +105,7 @@ This one synth works like an "atari punk console", where a square wave oscillato
 ## Soundfont_explorer.csd
 
 ### Run
-This one is little different than other synths in this repo. It needs a file named soundfont.sf2. You can download soundfonts anywhere you like on the internet, they are basically banks of instruments. Once you have found a nice soundfont:
+This one is little different than other synths in this repo. It needs a file named soundfont.sf2. You can download soundfonts anywhere you like on the internet, they are basically banks of instruments. Once you have found a nice soundfont, rename it "soundfont.sf2" and then:
 
 Plug in your USB midi from your keyboard to your computer.
 
