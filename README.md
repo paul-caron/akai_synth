@@ -2,6 +2,7 @@
 Transform your AKAI MPK MINI PLUS into realtime analog synth!
 The akai mini mpk plus thing is a beautiful beast.
 Enjoy using the knobs on it like it is 1970.
+This repo contains few different csd files, each of them represents a different kind of synthesizer.
 
 ## Requirements: Csound
 Install csound. (instructions on csound.com)
