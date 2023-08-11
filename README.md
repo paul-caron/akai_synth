@@ -100,3 +100,32 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 
 ### Technicalities about pwm.csd
 This one synth works like an "atari punk console", where a square wave oscillator has its pulse width modulated. The output of the oscillator is then shaped with and ADSR envelope.
+
+## Soundfont_explorer.csd
+
+### Run
+This one is little different than other synths in this repo. It needs a file named soundfont.sf2. You can download soundfonts anywhere you like on the internet, they are basically banks of instruments. Once you have found a nice soundfont:
+
+Plug in your USB midi from your keyboard to your computer.
+
+In terminal window, go into the directory that contains 'soundfont_explorer.csd' and type this simple command:
+```
+csound soundfont_explorer.csd
+```
+
+### Synth keyboard layout
+Here I used the same factory settings of the Akai Mini plus with cc messages spaning from 70 to 77:
+- Pitch Wheel: not used
+- Modulation Wheel: not used
+- drum pads: not used yet in this synth
+- Knob 70: Select soundfont preset from 0-127
+- Knob 71: not used
+- Knob 72: not used
+- Knob 73: not used
+- Knob 74: not used
+- Knob 75: not used
+- Knob 76: not used
+- Knob 77: not used
+
+### Technicalities about soundfont_explorer.csd
+This synth will take a soundfont and allow you to explore all the instruments that the soundfont contains. Just turn the knob 70 to the desired instrument number. 
