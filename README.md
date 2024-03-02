@@ -130,3 +130,8 @@ Here I used the same factory settings of the Akai Mini plus with cc messages spa
 
 ### Technicalities about soundfont_explorer.csd
 This synth will take a soundfont and allow you to explore all the instruments that the soundfont contains. Just turn the knob 70 to the desired instrument number. 
+
+
+# 5-7-edo
+This synth is same as synth.csd but the keys are mapped for 5 and 7 equal division per octave (EDO). The black keys are the 5 EDO notes and the white keys are the 7 EDO notes. For a different feel not common in Western music.
+
